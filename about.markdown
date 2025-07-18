@@ -21,11 +21,12 @@ Bioinformatics specialist who dabbles in audio engineering and AI from time to t
 - Audio engineering and digital signal processing
 - Building open source tools for scientific computing
 
-## Contact
+## Contact and Info
 
 - Email: brian.nadon@gmail.com
 - GitHub: [briannadon](https://github.com/briannadon)
 - LinkedIn: [brian-nadon](https://linkedin.com/in/brian-nadon)
+- Google Scholar: [Brian Nadon](https://scholar.google.com/citations?user=Z8FskhIAAAAJ&hl=en)
 
 ## About This Site
 
