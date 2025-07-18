@@ -28,6 +28,3 @@ Bioinformatics specialist who dabbles in audio engineering and AI from time to t
 - LinkedIn: [brian-nadon](https://linkedin.com/in/brian-nadon)
 - Google Scholar: [Brian Nadon](https://scholar.google.com/citations?user=Z8FskhIAAAAJ&hl=en)
 
-## About This Site
-
-This personal site is built using [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). The source code is available on [GitHub](https://github.com/briannadon/briannadon.github.io).

@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal blog and portfolio of Brian Nadon - Bioinformatics specialist, AI and audio engineering enthusiast
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://briannadon.github.io" # GitHub Pages URL
-twitter_username: jekyllrb # TODO: Update with your Twitter
 github_username:  briannadon
 
 # Build settings
