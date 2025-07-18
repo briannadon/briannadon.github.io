@@ -20,7 +20,7 @@ So what's really going on in these modelers? Frankly, nothing too complicated. T
 
 So how *do* we model analog distortion in the digital domain? Well, I'm no DSP expert, but [this paper](https://ccrma.stanford.edu/~dtyeh/papers/yeh07_dafx_distortion.pdf) explains it pretty well. Here is a simplifed diagram of what a basic distortion pedal is doing under the hood from that paper:
 
-![Block diagram of distortion pedal](image1.png). 
+![Block diagram of distortion pedal](assets/images/posts/image1.png). 
 
 The gist is that even though the nonlinear clipping portions of the pedal are more difficult to model, they're doable with good accuracy and good performance. 
 
@@ -48,7 +48,6 @@ All other manfacturers "convert" models to their own proprietary format (e.g. th
 
 Maybe in the future we'll see some of these manufacturers introduce some kind of [model distillation](https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d) to more accurately convert NAM models. I think this is probably the next frontier here.
 
-Alternatively, fullly ARM-based solutions that run on a basic OS like [PiPedal](github.com/rerdavies/pipedal) might flip everything on its head: what if we stopped even thinking about "pedals" and just loaded up plugins on a basic OS host?
+Alternatively, fully ARM-based solutions that run on a basic OS like [PiPedal](github.com/rerdavies/pipedal) might flip everything on its head: what if we stopped even thinking about "pedals" and just loaded up plugins on a basic OS host?
 
 The future is bright indeed.
-
