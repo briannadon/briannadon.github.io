@@ -20,7 +20,7 @@ So what's really going on in these modelers? Frankly, nothing too complicated. T
 
 So how *do* we model analog distortion in the digital domain? Well, I'm no DSP expert, but [this paper](https://ccrma.stanford.edu/~dtyeh/papers/yeh07_dafx_distortion.pdf) explains it pretty well. Here is a simplifed diagram of what a basic distortion pedal is doing under the hood from that paper:
 
-![Block diagram of distortion pedal](assets/images/posts/image1.png). 
+![Block diagram of distortion pedal](/assets/images/posts/image1.png). 
 
 The gist is that even though the nonlinear clipping portions of the pedal are more difficult to model, they're doable with good accuracy and good performance. 
 

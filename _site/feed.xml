@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brian Nadon</title>
+    <description>Bioinformatics scientist and part-time music/audio enthusiast.
+</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 19 Jul 2025 19:53:05 -0700</pubDate>
+    <lastBuildDate>Sat, 19 Jul 2025 19:53:05 -0700</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Welcome to my site!</title>
+        <description>&lt;h1 id=&quot;welcome-to-my-new-blog&quot;&gt;Welcome to my new blog!&lt;/h1&gt;
+
+&lt;p&gt;This is my first post on my new Jekyll-powered blog. I’ll be sharing my thoughts on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bioinformatics research&lt;/li&gt;
+  &lt;li&gt;AI and machine learning developments&lt;/li&gt;
+  &lt;li&gt;Audio engineering projects&lt;/li&gt;
+  &lt;li&gt;Open source contributions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stay tuned for more content coming soon!&lt;/p&gt;
+
+&lt;h2 id=&quot;about-this-site&quot;&gt;About This Site&lt;/h2&gt;
+
+&lt;p&gt;This site is built using Jekyll and hosted on GitHub Pages. The source code is available on &lt;a href=&quot;https://github.com/briannadon/briannadon.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Jul 2025 16:08:00 -0700</pubDate>
+        <link>http://localhost:4000//blog/2025/07/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2025/07/welcome-to-jekyll</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Where is digital amp modelling and tone capture headed?</title>
+        <description>&lt;p&gt;Yes, my first real post is going to be about music, not biology! Oh well.&lt;/p&gt;
+
+&lt;h1 id=&quot;where-we-were&quot;&gt;Where we were&lt;/h1&gt;
+
+&lt;p&gt;For decades, true guitar tone snobs turned their nose up at the thought of turning their guitar signal into a bunch of &lt;em&gt;ones and zeroes&lt;/em&gt; to make sound. “It just doesn’t have that &lt;em&gt;real tube feel&lt;/em&gt;”, they’d say.&lt;/p&gt;
+
+&lt;p&gt;But the foundational research most contemporary digital guitar amplifier modeling is based on was done in the 1980s, and the first acceptable “pro-level” modeling units hit the mass market in the &lt;a href=&quot;https://www.vintagedigital.com.au/roland-gp-100/&quot;&gt;early 1990s&lt;/a&gt;. As the 2000s rolled in, these became cheaper and more popular. This is approximately when the much reviled “red bean pods” gained their (&lt;a href=&quot;https://www.youtube.com/watch?v=FXdwsktHa6k&quot;&gt;unfair&lt;/a&gt;) reputation. I personally spent much of my teenage years noodling through a &lt;a href=&quot;https://www.manualslib.com/manual/380807/Digitech-Rp100a.html&quot;&gt;Digitech RP-100A&lt;/a&gt;. I even played a few live shows through a red bean pod (I think the Pod X3) hidden behind a stack of cabinets - which got me a surprising number of compliments from audience members who were none the wiser. Despite popular opinion, even as early as the 2000s, these modelers were plenty “good enough” for working musicians.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-the-mystique&quot;&gt;Why the mystique?&lt;/h1&gt;
+
+&lt;p&gt;So what’s really going on in these modelers? Frankly, nothing too complicated. There are really only two kinds of elements in a guitar’s signal chain: linear (e.g. EQ) and non-linear (compression, distortion). Linear effects are very easy to “model”, nonlinear not so much. However, even as early as the 1980s as noted above, methods to emulate saturation and distortion as seen in vacuum tube circuits were well-established. So when we ask the question “how &lt;em&gt;good&lt;/em&gt; is this digital modeler?” we’re &lt;em&gt;really&lt;/em&gt; asking “how accurate is the analog nonlinear distortion modeling”, because everything else is fairly straightforward.&lt;/p&gt;
+
+&lt;p&gt;So how &lt;em&gt;do&lt;/em&gt; we model analog distortion in the digital domain? Well, I’m no DSP expert, but &lt;a href=&quot;https://ccrma.stanford.edu/~dtyeh/papers/yeh07_dafx_distortion.pdf&quot;&gt;this paper&lt;/a&gt; explains it pretty well. Here is a simplifed diagram of what a basic distortion pedal is doing under the hood from that paper:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/image1.png&quot; alt=&quot;Block diagram of distortion pedal&quot; /&gt;.&lt;/p&gt;
+
+&lt;p&gt;The gist is that even though the nonlinear clipping portions of the pedal are more difficult to model, they’re doable with good accuracy and good performance.&lt;/p&gt;
+
+&lt;p&gt;These building blocks have been the basis of modeling software and hardware for many years now. With smart circuit modeling and analysis, engineers can accurately recreate the linear and nonlinear behavior of amps, including the elusive “touch sensitivity” so many guitarists crave.&lt;/p&gt;
+
+&lt;p&gt;I think part of the confusion around, and preponderance of magical beliefs about, modeling analog audio signals come largely from marketing in the audio world. Obviously if you are a large company and have a huge amount of capital invested in making vacuum tube-based amplifiers, you are going to want to convince people they don’t want the new, cheaper, highly accurate technology.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-new-hotness-ai&quot;&gt;The new hotness: AI&lt;/h1&gt;
+
+&lt;p&gt;Everyone’s heard of neural networks and machine learning (or “AI” if you’re chasing VC money) by now, so if you haven’t, &lt;a href=&quot;https://www.slideserve.com/aulii/neural-networks-primer-powerpoint-ppt-presentation&quot;&gt;here’s a primer&lt;/a&gt;.  Nonlinear saturation and distortion are great targets for machine learning: they’re very easy to sample (AI/ML relies on huge sample sizes), and they represent systems that can be challenging to model perfectly accurately using first principles - though it can be done as mentioned above.&lt;/p&gt;
+
+&lt;p&gt;I think &lt;a href=&quot;https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/support/CDCM%20HD_White%20Paper_V01_200323.1584955064392.pdf&quot;&gt;Hotone’s white paper&lt;/a&gt; breaks down the state of play on using AI/ML in amp modeling well. There is no need to use ML methods on linear components like EQ, but it’s well-suited to model distortion. Newer hardware like powerful GPUs and, in Hotone’s case, SHARC DSP chips, allow for very fast and efficient processing of guitar signals through machine learning models to get novel output (i.e. a realistic guitar amplifier tone).&lt;/p&gt;
+
+&lt;p&gt;Then, &lt;a href=&quot;https://www.neuralampmodeler.com/&quot;&gt;Neural Amp Modeler&lt;/a&gt; came along and shook things up. Steven Atkinson showed you could use off-the-shelf machine learning libraries to match guitar amplifier characteristics extremely accurately in real-time. What’s more, he open-sourced it, so anyone could benefit from his work.&lt;/p&gt;
+
+&lt;p&gt;The community really took off with NAM in a way I never expected - usually open source tools like this don’t fare well in the audio world due to the magical marketing beliefs I discussed earlier, but this seems to be an exception. To date, Hotone, DimeHead, and NeuralDSP (among others) now support NAM models in their hardware or software.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-catch&quot;&gt;The catch&lt;/h1&gt;
+
+&lt;p&gt;Neural Amp Modeler has one issue: it is very CPU-intensive, and relies on a fairly large neural network. It’s tough to pack a full-powered x86 or ARM processor into a pedal or rack-based form factor (and not have it melt), so most companies opt for purpose built DSP chips (like the SHARC mentioned earlier) that are very efficient and generate little heat. To date, I believe the only &lt;em&gt;pedal&lt;/em&gt; form-factor product that can load full-size NAM models is the DimeHead.&lt;/p&gt;
+
+&lt;p&gt;All other manfacturers “convert” models to their own proprietary format (e.g. their own smaller neural network architecture). I suspect that this “conversion” is actually a retraining: I think these companies are taking the NAM model, sending pre-computed test/training signals (usually sine sweeps combined with some other reference sounds - remember, we need to model linearity and nonlinearity), getting the “output” from the NAM model, and training &lt;em&gt;their&lt;/em&gt; model to learn how to do what the NAM model did to the test signal. Intuitively, you probably know or suspect that training a neural network on the output of another neural network introduces some loss of quality. My personal experience, and that of many others, is exactly this: &lt;a href=&quot;https://www.youtube.com/watch?v=PRN7KeDtScI&quot;&gt;these conversions introduce some loss of model accuracy.&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-solution&quot;&gt;The solution?&lt;/h1&gt;
+
+&lt;p&gt;Maybe in the future we’ll see some of these manufacturers introduce some kind of &lt;a href=&quot;https://medium.com/data-science-in-your-pocket/what-are-deepseek-r1-distilled-models-329629968d5d&quot;&gt;model distillation&lt;/a&gt; to more accurately convert NAM models. I think this is probably the next frontier here.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, fully ARM-based solutions that run on a basic OS like &lt;a href=&quot;github.com/rerdavies/pipedal&quot;&gt;PiPedal&lt;/a&gt; might flip everything on its head: what if we stopped even thinking about “pedals” and just loaded up plugins on a basic OS host?&lt;/p&gt;
+
+&lt;p&gt;The future is bright indeed.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Jul 2025 16:08:00 -0700</pubDate>
+        <link>http://localhost:4000//blog/2025/07/thoughts-on-amp-modelling</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/2025/07/thoughts-on-amp-modelling</guid>
+        
+        
+        <category>audio</category>
+        
+      </item>
+    
+  </channel>
+</rss>
