@@ -70,6 +70,11 @@
     }
 }
 
+/* Hide Projects link if it appears */
+.site-nav .menu > li a[href*="projects"] {
+    display: none !important;
+}
+
 .site-nav a {
 	display: block;
     color: #ffffff;
@@ -213,5 +218,3 @@
         }
     }
 }
-
-
