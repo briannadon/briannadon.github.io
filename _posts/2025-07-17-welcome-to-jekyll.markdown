@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to my site!"
+title:  "Welcome to my blog!"
 date:   2025-07-17 16:08:00 -0700
 categories: jekyll update
 author: Brian Nadon

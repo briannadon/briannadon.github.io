@@ -4,10 +4,10 @@ title: Blog
 permalink: /blog/
 ---
 
-Here are my extremely thoughtful and insightful writings on various topics that you may or may not care about! <a href="{{ site.baseurl }}/categories/">here</a>.
+Here are my extremely thoughtful and insightful writings on various topics that you may or may not care about! 
 
 <ul class="listing">
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
