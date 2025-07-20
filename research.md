@@ -4,7 +4,7 @@ permalink: /research/
 title: Research
 ---
 
-Describe your research interests here.
+Below is a list straight from Google Scholar, most-cited first. My research focuses on computational biology and bioiformatics.
 
 <h2>Publications</h2>
 <ul>
