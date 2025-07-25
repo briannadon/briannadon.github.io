@@ -6,5 +6,5 @@ permalink: /cv/
 
 You can find my resume below.
 <ul>
-	<li><a href="/cv/brian_nadon_2025_np_cv.pdf">Resume</a> (2 pages)</li>
+	<li><a href="/cv/Brian Nadon Resume 2025.pdf">Resume</a> (2 pages)</li>
 </ul>
